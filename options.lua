@@ -4,11 +4,13 @@ return {
     -- set to true or false etc.
     relativenumber = false, -- sets vim.opt.relativenumber
     wrap = false, -- sets vim.opt.wrap
-    shell = 'gnome-terminal'
+    shiftwidth = 4,
+    tabstop = 4,
+--    shell = 'gnome-terminal'
   },
   g = {
     cmp_enabled = true, -- enable completion at start
-    terminal_emulator = 'gnome-terminal'
+--    terminal_emulator = 'gnome-terminal'
   },
 }
 -- If you need more control, you can use the function()...end notation
