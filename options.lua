@@ -2,8 +2,9 @@
 return {
   opt = {
     -- set to true or false etc.
+    number = true,
     relativenumber = false, -- sets vim.opt.relativenumber
-    wrap = false, -- sets vim.opt.wrap
+    wrap = true, -- sets vim.opt.wrap
     shiftwidth = 4,
     tabstop = 4,
 --    shell = 'gnome-terminal'
